@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #87BBA2;
-    color: #212227;
+    background-color: #FCE49F;  /* Light yellow */
+    color: #29231A;              /* Dark brown */
 }
 
 nav ul {
@@ -9,7 +9,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #8B8BAE;
+    background-color: #F5B657;   /* Orange */
 }
 
 nav li {
@@ -18,14 +18,14 @@ nav li {
 
 nav li a {
     display: block;
-    color: #FFD23F;
+    color: #FFF2C1;             /* Light yellow */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #395B50;
+    background-color: #E07A17;   /* Dark orange */
 }
 
 header {
@@ -33,9 +33,25 @@ header {
     padding: 20px;
 }
 
+.side-content {
+    float: left;
+    width: 45%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.side-content img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #8B8BAE;
-    color: #FFD23F;
+    background-color: #F5B657;   /* Orange */
+    color: #FFF2C1;             /* Light yellow */
+}
+
+footer a {
+    text-decoration: none;
 }
